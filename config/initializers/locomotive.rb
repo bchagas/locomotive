@@ -68,7 +68,7 @@ Locomotive.configure do |config|
 
   config.hosting = {
     :target     => :heroku,
-    :api_key    => '8786b54baa6ba0f80a3c880c8826d737',
+    :api_key    => '68d799bdb24528c1d611b51a566ea4424a61b7e8',
     :app_name   => 'bchagas-locomotive'
   }
 end
