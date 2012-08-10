@@ -1,0 +1,9 @@
+body header { 
+  background: red;
+  font-family: Arial, sans-serif;
+}
+
+body header a {
+  color: white;
+  text-decoration: none;
+}
