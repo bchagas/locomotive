@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: brunochagas
+  api_key: '361544938735339'
+  api_secret: Bdv2euJT-JHnd6hpmYW9vS4dBS4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: brunochagas
+  api_key: '361544938735339'
+  api_secret: Bdv2euJT-JHnd6hpmYW9vS4dBS4
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: brunochagas
+  api_key: '361544938735339'
+  api_secret: Bdv2euJT-JHnd6hpmYW9vS4dBS4
+  enhance_image_tag: true
+  static_image_support: false

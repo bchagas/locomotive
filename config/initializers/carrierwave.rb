@@ -5,8 +5,8 @@ CarrierWave.configure do |config|
   case Rails.env.to_sym
 
   when :development
-    config.storage = :file
-    config.root = File.join(Rails.root, 'public')
+    #config.storage = :file
+    #config.root = File.join(Rails.root, 'public')
 
   when :production
     # the following configuration works for Amazon S3
@@ -19,9 +19,8 @@ CarrierWave.configure do |config|
     #}
     #config.fog_directory    = ENV['S3_BUCKET']
 
-    config.storage = :file
-    config.root = File.join(Rails.root, 'public')
-
+    #config.storage = :file
+    #config.root = File.join(Rails.root, 'public')
   else
     # settings for the local filesystem
     # config.storage = :file
