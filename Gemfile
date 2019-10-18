@@ -5,7 +5,7 @@ ruby '1.9.3'
 gem 'json'
 gem 'locomotive_cms', '~> 2.0.0.rc9', :require => 'locomotive/engine'
 gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.17'
 gem 'cloudinary'
 
 group :assets do
